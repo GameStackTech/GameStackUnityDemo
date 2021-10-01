@@ -27,19 +27,10 @@ You you will need the `token::access_token` from login the response.
 
 ```json
 {
-  "session":{
-    "session_expires_in":"2021-10-01T02:27:06Z",
-    "session_max_age":2592000,
-    "session_name":"gamestack",
-    "session_path":"/",
-    "session_value":"MTYzMDQ2MzIyNnx2X1lDSmVyM0szVU5saElCUzFKZzVoNkZjZTA2ZEgxWDlKUVFMbWFMMWpiajB4MVVIOTMybFFlOWN1bVhWcmlkdmJ0R1I3NjNiVmRfdUpZSHFnQU1CTWFQMFl0dlZQbGZzeUplcUhuMHdRVi1nM3BGYU9NWURtVExiTWliZ2JFbXBLQ3FMSXU1MXhuX1I5Y3BzVHc9fHffj5Wg6ZpjMQvMLjIoyupf8tCNhuMEJAsb7dC6bCmP"
-  },
+  ...
   "token":{
     "access_token":"eyJhbGciOiJIUzUxMiIsImtpZCI6IjEzMDM0MGIyLWU4YjYtNGRlOC05MzE2LTE2ZjFlN2Q1ZTIzZiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiIzMjM3NjA0M2QzMDVjZWMyYTQyZTY3YThlNjNmMjM3YyIsImV4cCI6MTYzMDQ3MDQyNiwic3ViIjoiYTZhZTAzYzUtN2JiYy00NDE2LTljOTMtZWVmYWNjNGU0OGE5In0.ojn7eFv2A5F7dOGSvYbQr-rh3TknZkjtI8RfQ1mDd3tTPUlGiq-TTcweZ6ZPHZ_uwvfZ3sOaXWcGiGpfRoi7lA",
-    "expires_in":7200,
-    "refresh_token":"Y2E5MJHLNDATYZG3OC01ZJNKLTK0NJGTMWZKN2QZM2E4NZVJ",
-    "scope":"CreateApplication CreateLeaderboard DeleteLeaderboardStats PutLeaderboardStats UpdateApplicationState UpdateLeaderboardState UpdateUserState",
-    "token_type":"Bearer"
+    ...
   }
 }
 ```
