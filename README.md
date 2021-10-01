@@ -121,6 +121,7 @@ You will need a to create a GameStack player account to login, put stats to, and
   <summary>GameStack player create via CURL</summary>
 
     ```sh
+    # You can use the following CURL command to create a GameStack player account.
     curl -H 'Content-Type: application/json' -d '{"username":"some_username","email":"some@email.com","name":"Some User","password":"test"}' http://localhost:8070/players/signup
     ```
 
