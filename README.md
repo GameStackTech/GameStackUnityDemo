@@ -69,46 +69,38 @@ Next you will need to create sample leaderboards to interact with in the demo le
 
 <details>
   <summary>FightingGameDemo Leaderboard</summary>
-  <p>
 
-    ```sh
-    curl -H 'Content-Type: application/json' -H 'Authorization: Bearer <your_access_token>' -d '{"name":"FightingGameDemo","dimensions":{"wins":{"data":{"type":"INT"}},"losses":{"data":{"type":"INT"}},"hitPecentage":{"data":{"type":"FLOAT"}},"mode":{"data":{"type":"STRING"}}}}' http://localhost:8080/app/<your_applciation_id>/leaderboard
-    ```
+  ```sh
+  curl -H 'Content-Type: application/json' -H 'Authorization: Bearer <your_access_token>' -d '{"name":"FightingGameDemo","dimensions":{"wins":{"data":{"type":"INT"}},"losses":{"data":{"type":"INT"}},"hitPecentage":{"data":{"type":"FLOAT"}},"mode":{"data":{"type":"STRING"}}}}' http://localhost:8080/app/<your_applciation_id>/leaderboard
+  ```
 
-  </p>
 </details>
 
 <details>
   <summary>FPSDemo Leaderboard</summary>
-  <p>
 
-    ```sh
-    curl -H 'Content-Type: application/json' -H 'Authorization: Bearer <your_access_token>' -d '{"name":"FPSDemo","dimensions":{"kills":{"data":{"type":"INT"}},"deaths":{"data":{"type":"INT"}},"accuracy":{"data":{"type":"FLOAT"}},"level":{"data":{"type":"STRING"}}}}' http://localhost:8080/app/<your_applciation_id>/leaderboard
-    ```
+  ```sh
+  curl -H 'Content-Type: application/json' -H 'Authorization: Bearer <your_access_token>' -d '{"name":"FPSDemo","dimensions":{"kills":{"data":{"type":"INT"}},"deaths":{"data":{"type":"INT"}},"accuracy":{"data":{"type":"FLOAT"}},"level":{"data":{"type":"STRING"}}}}' http://localhost:8080/app/<your_applciation_id>/leaderboard
+  ```
 
-  </p>
 </details>
 
 <details>
   <summary>RPGDemo Leaderboard</summary>
-  <p>
 
-    ```sh
-    curl -H 'Content-Type: application/json' -H 'Authorization: Bearer <your_access_token>' -d '{"name":"RPGDemo","dimensions":{"enemiesKilled":{"data":{"type":"INT"}},"spellsCast":{"data":{"type":"INT"}},"averageDPS":{"data":{"type":"FLOAT"}},"dungeon":{"data":{"type":"STRING"}}}}' http://localhost:8080/app/<your_applciation_id>/leaderboard
-    ```
+  ```sh
+  curl -H 'Content-Type: application/json' -H 'Authorization: Bearer <your_access_token>' -d '{"name":"RPGDemo","dimensions":{"enemiesKilled":{"data":{"type":"INT"}},"spellsCast":{"data":{"type":"INT"}},"averageDPS":{"data":{"type":"FLOAT"}},"dungeon":{"data":{"type":"STRING"}}}}' http://localhost:8080/app/<your_applciation_id>/leaderboard
+  ```
 
-  </p>
 </details>
 
 <details>
   <summary>SportsDemo Leaderboard</summary>
-  <p>
 
-    ```sh
-    curl -H 'Content-Type: application/json' -H 'Authorization: Bearer <your_access_token>' -d '{"name":"SportsDemo","dimensions":{"wins":{"data":{"type":"INT"}},"losses":{"data":{"type":"INT"}},"rushYards":{"data":{"type":"INT"}},"passYards":{"data":{"type":"INT"}},"completionPercentage":{"data":{"type":"FLOAT"}},"mode":{"data":{"type":"STRING"}}}}' http://localhost:8080/app/<your_applciation_id>/leaderboard
-    ```
+  ```sh
+  curl -H 'Content-Type: application/json' -H 'Authorization: Bearer <your_access_token>' -d '{"name":"SportsDemo","dimensions":{"wins":{"data":{"type":"INT"}},"losses":{"data":{"type":"INT"}},"rushYards":{"data":{"type":"INT"}},"passYards":{"data":{"type":"INT"}},"completionPercentage":{"data":{"type":"FLOAT"}},"mode":{"data":{"type":"STRING"}}}}' http://localhost:8080/app/<your_applciation_id>/leaderboard
+  ```
 
-  </p>
 </details>
 
 If successful you will get responses with your new leaderboards ID.
@@ -127,7 +119,6 @@ You will need a to create a GameStack player account to login, put stats to, and
 
 <details>
   <summary>GameStack player create via CURL</summary>
-  <p>
 
     You can use the following CURL command to create a GameStack player account.
 
@@ -135,7 +126,6 @@ You will need a to create a GameStack player account to login, put stats to, and
     curl -H 'Content-Type: application/json' -d '{"username":"some_username","email":"some@email.com","name":"Some User","password":"test"}' http://localhost:8070/players/signup
     ```
 
-  </p>
 </details>
 
 ## Using the demo
